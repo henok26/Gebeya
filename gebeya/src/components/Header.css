@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6c4ce2;
+    color: white;
+  }
+  
+  .header-logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .cta-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #e68900;
+  }
+  

@@ -1,0 +1,160 @@
+/* CartPage.css */
+.cart-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .search-bar {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Breadcrumb */
+  .breadcrumb {
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  
+  /* Product Details */
+  .product-details {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .product-image img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .product-info {
+    margin-left: 30px;
+  }
+  
+  .product-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+  }
+  
+  .price {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .discounted-price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  
+  .selectors {
+    margin-top: 20px;
+  }
+  
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-selector button {
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .size-selector select {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .color-selector {
+    margin-top: 20px;
+  }
+  
+  .color-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .product-actions button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .product-actions button:hover {
+    background-color: #555;
+  }
+  
+  .social-sharing button {
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .social-sharing button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Delivery & Returns */
+  .delivery-returns {
+    margin-top: 30px;
+  }
+  
+  .location-selector select {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .delivery-info {
+    margin-top: 15px;
+  }
+  
+  .return-policy {
+    margin-top: 15px;
+  }
+  

@@ -1,0 +1,130 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar sections */
+  .navbar-left,
+  .navbar-center,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Links */
+  .nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: #6200ee;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: #6200ee;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #4500b0;
+  }
+  
+  /* Language/Currency dropdown */
+  .language-currency .dropdown-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Cart icon */
+  .cart-icon {
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    /* Stack items vertically */
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-left,
+    .navbar-center,
+    .navbar-right {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    /* Links center-aligned */
+    .navbar-center {
+      display: none; /* Hide middle links for mobile to save space */
+    }
+  
+    .search-bar {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Logo larger for smaller screens */
+    .logo {
+      font-size: 20px;
+    }
+  
+    .search-bar input {
+      font-size: 14px;
+    }
+  
+    .search-bar button {
+      font-size: 14px;
+    }
+  
+    .dropdown-button {
+      font-size: 14px;
+    }
+  
+    /* Show a hamburger menu for navigation */
+    .navbar-center {
+      display: none; /* Hide navbar links; consider adding a dropdown menu */
+    }
+  }
+  
