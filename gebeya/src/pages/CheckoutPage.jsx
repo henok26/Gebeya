@@ -1,6 +1,7 @@
 // src/components/Checkout.js
 import React from 'react';
 import './Checkout.css'; // Import the styling file
+import Footer from '../components/Footer';
 
 const Checkout = () => {
   return (
@@ -29,8 +30,12 @@ const Checkout = () => {
       <button>Bank Transfer</button>
 
       <button>Place Order</button>
+ 
+      
     </div>
+    
   );
+
 };
 
 export default Checkout;

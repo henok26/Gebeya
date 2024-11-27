@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../components/Footer';
 import './CartPage.css';
 import Navbar from '../components/Navbar';
 
@@ -102,6 +103,7 @@ const CartPage = () => {
           <a href="#">Learn more about returns</a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

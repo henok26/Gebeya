@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -69,6 +70,7 @@ import CheckoutPage from "./pages/CheckoutPage";
           <Route path="/cart" element={<CartPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
